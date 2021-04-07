@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     text-align: center;
     margin: 0px;
@@ -39,9 +43,11 @@ h1 {
     font-family: 'Cinzel Decorative', cursive;
     line-height: 1.2;
 }
-#name:hover{
+
+#name:hover {
     color: blue;
 }
+
 h3 {
     font-size: 30px;
     /*    font-weight: bolder;*/
@@ -92,8 +98,9 @@ p {
     cursor: pointer;
     z-index: 10;
 }
-.links{
-    float: left;
+
+.links {
+    float: center;
     padding-top: 5px;
     padding-left: 9px;
     padding-bottom: 5px;
@@ -102,15 +109,64 @@ p {
     font-family: 'New Tegomin', serif;
     font-size: 20px;
 }
-.links:hover{
+
+.links:hover {
     background-color: darkorchid;
 }
-.article{
+
+.article {
     text-decoration: none;
 }
-.article:hover{
+
+.article:hover {
     color: blueviolet;
 }
-html{
+
+html {
     scroll-behavior: smooth;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    
+}
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+    font-size: 30px !important;
+}
+#contact{
+    background: firebrick;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 h1{
+    color: white;
 }
